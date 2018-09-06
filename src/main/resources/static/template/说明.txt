@@ -1,0 +1,7 @@
+导出word Demo
+ 1、本功能无页面：直接在浏览器中输入：http://localhost:8080/wordController/downLoadWord   即可下载word文档
+2、注意：模版中的占位符号，要一次性的写完，例如${name},要从左到右一个字符一个字符的敲，不能拷贝，比如先${},然后再name, 
+这样子操作，poi在读取${name} 的时候，会被分成${、name、｝三个部分，如果占位符过长，poi读取的时候，也会分成三个部分，
+可能是poi读取word模板的机制不够完善，本人能力有限，也没有读源码，原因不明，以上也是通过百度得到的信息，附上几个博客地址：
+          http://www.cnblogs.com/hzw-hym/p/4586311.html
+          http://www.cnblogs.com/qingruihappy/p/8443403.html
